@@ -2,10 +2,6 @@ dist: bionic
 sudo: false
 language: cpp
 
-before_install:
-  - sudo apt-get install libspdlog-dev
-  
-  
 script:
   - mkdir build && cd build
   - cmake .. 

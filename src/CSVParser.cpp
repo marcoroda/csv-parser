@@ -7,8 +7,6 @@
 #include "spdlog/spdlog.h"
 
 void CSVReader::readData() {
-  spdlog::info("Reading Data ...");
-
   std::ifstream myFile(fileName);
   if (!myFile.is_open()) {
     throw std::runtime_error("Could not open file");
