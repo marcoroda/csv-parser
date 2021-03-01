@@ -1,5 +1,4 @@
 #include "CSVParser.h"
-#include "spdlog/spdlog.h"
 
 int main() {
   CSVReader afm_csv("../input/force_curve.csv", ';');

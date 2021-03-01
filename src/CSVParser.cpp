@@ -4,8 +4,6 @@
 #include <iostream>
 #include <sstream>
 
-#include "spdlog/spdlog.h"
-
 void CSVReader::readData() {
   std::ifstream myFile(fileName);
   if (!myFile.is_open()) {
