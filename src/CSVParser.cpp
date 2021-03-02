@@ -1,5 +1,7 @@
 #include "CSVParser.h"
 
+#include <matplot/matplot.h>
+
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -32,7 +34,9 @@ void CSVReader::readData() {
 
 void CSVReader::plotData() {
   std::cout << "Printing Data ... " << std::endl;
-  // TODO implement Plotting with matplot++ lib
+
+  matplot::plot(x, y);
+  matplot::show();
 }
 
 void CSVReader::dumpData2Console(uint32_t num) {
