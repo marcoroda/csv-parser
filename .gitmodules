@@ -1,0 +1,4 @@
+[submodule "matplotplusplus"]
+	path = matplotplusplus
+	url = https://github.com/alandefreitas/matplotplusplus/
+	branch = master
